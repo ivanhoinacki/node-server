@@ -1,0 +1,15 @@
+{
+  "name": "NodeSeed",
+  "version": "1.0.0",
+  "description": "NodeSeed - Server base para utilização de rest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -d ./backend/ -p 8000 -c-1",
+  },
+  "dependencies": {
+    "express": "^3.x"
+  },
+  "author": "ivan hoinacki",
+  "license": "MIT",
+}
